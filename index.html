@@ -588,7 +588,7 @@
     class="bg-[url(./images/feature-section-2BG.svg)] bg-no-repeat bg-cover pb-[350px] mt-14 pt-[10rem] text-white ">
       <div class="w-10/12 max-w-[1000px] pt-4 relative  mx-auto">
          <h2 class="font-mullish font-bold text-center text-2xl leading-[1.2]">Explore RazorpayX powered Business Banking</h2>
-         <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
+         <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-16"></div>
          <!--main feature -->
          <div class="w-full min-h[440px] flex relative">
           <img src="./images/x-flame-1.png" loading="lazy" class="absolute -top-[142px] -left-[140px] w-[200px]" alt="">
@@ -599,7 +599,7 @@
           class="bg-[#181C2E] w-full  flex min-h-[520px] rounded-md relative p-10 py-12 border hover:scale-105 transition-all duration-700 "
         >
           <!-- left section -->
-          <div class="flex flex-col justify-between w-full">
+          <div class="flex flex-col h-full justify-between items-start w-full">
             <h3
               class="font-mullish text-xl leading-[28px] font-bold max-w-[500px]"
             >
@@ -626,13 +626,16 @@
              
             </ul>
             <!-- for button and hyperlink -->
-            <div class="flex flex-row items-center space-x-4">
+            <div class="flex flex-row w-full items-center space-x-4">
               <button
-                class="hover:scale-105  bg-lightBlue w-fit text-white py-[14px] px-[18px] font-bold rounded-md font-mullish hover:bg-white hover:text-deepBlue transition-all duration-700"
+                class=" md:pr-[90px]  relative flex items-center justify-start hover:scale-105  
+                bg-lightBlue w-fit text-white py-[14px] px-[18px] font-bold rounded-md font-mullish hover:bg-white
+                 hover:text-deepBlue transition-all duration-700"
               >
-                Sign Up Now
+                Sign Up Now &nbsp;&nbsp;
+                <div class=" m-2 p-1 h-[60px] absolute  w-16  bg-greenLight skew-x-[20deg] rounded-sm right-6 z-10">
                 <svg
-                  class="m-2"
+                  class="m-3 mb-5 skew-x-[-20deg]"
                   style="display: inline-block"
                   width="24"
                   height="24"
@@ -645,6 +648,7 @@
                     d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
                   />
                 </svg>
+              </div>
               </button>
               <!-- hyperlink -->
               <div class="flex items-center cursor-pointer group">
@@ -662,7 +666,7 @@
             </div>
           </div>
           <img
-            src="./images/payment-suite.png"
+            src="./images/buisness-banking.png"
             class="absolute max-w-[600px] right-0 bottom-0"
             alt=""
           />
