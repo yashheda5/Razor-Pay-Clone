@@ -12,10 +12,22 @@
       .corefeature{
         background-size: 100% 100%;
       }
+      .moveImage{
+        animation: 12s infinite moveCom;
+      }
+      @keyframes moveCom {
+        0%{
+          top:0;
+        }
+        50%{
+          top:-50%;
+        }
+      }
     </style>
   </head>
 
   <body>
+    <nav class="overflow-x-hidden relative">
     <nav class="bg-deepBlue">
       <div
         class="relative w-[1080px] mx-auto flex items-center justify-between"
@@ -1071,6 +1083,32 @@
         </div>
       </div>
     </section>
+    <!-- join razorpay section -->
+    <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-50">
+      <div class=" flex flex-row w-10/12 max-w-[1000px] pt-4 relative  mx-auto" >
+        <!-- left part -->
+        <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+          <h2 class="font-mullish font-bold  text-[1.4rem] text-deepBlue ">Join the 50,00,000 businesses using Razorpay</h2>
+          <div class="w-6 h-1 bg-greenLight  mt-5 mb-5"></div>
+          <p class="font-mullish opacity-80">We make it easier for you to focus on building great products while we work on
+             simplifying your payments. Become one of us by joining thousands of our happy users and simplify 
+             the online payment experience for your customers.</p>
+          <p class="font-mullish mt-6 opacity-80">Focus on your business while we handle the complexities of payments for you.</p>
+        </div>
+        <!-- rigth part -->
+        <div class="h-[550px] w-[500px] relative overflow-y-hidden">
+          <div style="background:linear-gradient(180deg,#f4f8ff,#fff0);"
+          class="absolute w-full h-[150px] z-50 top-0">
+          </div>
+          <img src="images/comanies.png" width="500px" class="  absolute object-cover moveImage" alt="">
+          <div style="background:linear-gradient(0deg,#f4f8ff,#fff0);"
+          class="absolute w-full h-[150px] z-50 bottom-0">
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </nav>
     <script>
       feather.replace();
     </script>
